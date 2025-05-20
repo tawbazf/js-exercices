@@ -37,3 +37,22 @@ new String();// ''
 new Boolean();// TRUE FALSE
 new  Number (); //1 2 
 // function in js are objects
+Circle.call({},1) //the same as line 35
+// global object window 
+Circle.call(window,1) 
+Circle.apply({},[1,2,3])
+/*
+ VALUE TYPES ;primitives :
+number
+string
+boolean
+symbol
+undefined
+null
+ */
+/*
+refrence types
+object 
+function
+array
+*/
