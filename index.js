@@ -1,0 +1,35 @@
+// const circle={
+// // properties
+// radius: 1,
+// location :{
+//     x:1,
+//     y:1
+// },
+// //method
+// draw:function(){
+//     console.log('draw');
+// }
+// };
+// circle.draw();
+
+//factories constructor
+function createCircle(radius){
+return {
+radius,
+draw: function(){
+    console.log('draw');
+}
+};
+}
+const circle=createCircle(1);
+circle.draw();
+
+//constructor function MAJUSCULE
+function Circle(radius){
+    this.radius=radius;
+    this.draw=function(){
+    console.log('draw');
+
+    }
+}
+const another= new circle(1);
