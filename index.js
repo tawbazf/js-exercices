@@ -33,3 +33,7 @@ function Circle(radius){
     }
 }
 const another= new circle(1);
+new String();// ''
+new Boolean();// TRUE FALSE
+new  Number (); //1 2 
+// function in js are objects
